@@ -4,7 +4,7 @@
 
 ---
 
-https://github.com/rahulwadhekar/EVotingSystem/blob/f55cf603196606e01ee9d882c007dc4115943630/Screenshot%202025-01-17%20104949.png
+![image alt](https://github.com/rahulwadhekar/EVotingSystem/blob/f55cf603196606e01ee9d882c007dc4115943630/Screenshot%202025-01-17%20104949.png)
 
 ## Features
 
