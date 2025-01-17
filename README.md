@@ -43,3 +43,90 @@
   {
     "name": "John Doe"
   }
+
+- **Get All Users**
+`GET /get/users`
+
+-**Election Endpoints**
+Add Election
+`POST /add/election`
+**Body**
+```json
+Copy
+Edit
+{
+  "name": "Presidential Election 2025"
+}
+```
+-**Get All Elections**
+`GET /get/elections`
+-**Election Choice Endpoints**
+**Add Election Choice**
+`POST /add/electionChoice`
+**Body**
+```json
+
+{
+  "name": "Candidate A",
+  "election": {
+    "id": 1
+  }
+}
+```
+**Get All Election Choices**
+`GET /get/electionChoices`
+-**Voting Endpoints**
+**Cast Vote**
+`POST /add/vote?userId={userId}&electionId={electionId}&electionChoiceId={electionChoiceId}`
+-**Get All Votes**
+`GET /get/votes`
+-**Count Total Votes**
+`GET /count/votes`
+**Count Votes by Election Name**
+`GET /count/votes/{electionName}`
+-**Result Endpoints-**
+**Get Election Winner**
+`GET /winner/election/{electionName}`
+**Installation**
+*Clone the repository:*
+
+
+```
+git clone https://github.com/your-username/EVotingSystem.git
+```
+
+**Navigate to the project directory:**
+
+
+
+```
+cd EVotingSystem
+```
+
+**Build and run the application:**
+```
+mvn spring-boot:run
+```
+***Project Structure***
+
+```
+EVotingSystem/
+├── src/main/java
+│   ├── com/codingninjas/EVotingSystem
+│   │   ├── entities
+│   │   ├── controllers
+│   │   ├── repositories
+│   │   └── services
+├── src/main/resources
+│   └── application.properties
+└── pom.xml
+
+```
+**License**
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+
+Name: Rahul
+Email: wadhekarrahul1818@gmail.com
+GitHub: github.com/rahulwadhekar
