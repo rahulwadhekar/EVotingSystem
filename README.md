@@ -52,8 +52,7 @@ Add Election
 `POST /add/election`
 **Body**
 ```json
-Copy
-Edit
+
 {
   "name": "Presidential Election 2025"
 }
